@@ -152,8 +152,8 @@ function App() {
               </p>
 
             </div>
-            <div className="col-lg-4 col-md-8 bg-dark rounded shadow">
-              <div className='container-fluid bg-light rounded-2 mt-3 mb-2'>
+            <div className="col-lg-4 col-md-8 bg-dark rounded shadow p-3">
+              <div className='container-fluid bg-light rounded-2 mt-1 mb-3'>
                 <h4 className='text-center'>BMI Calculator</h4>
                 <div className="mb-3 mt-3 ms-2 me-2">
                   <TextField name='bweight' value={bweight} id="outlined-basic" label="Enter Weight(kg)" variant="outlined" className='w-100' onChange={(e) => calculate(e)} />
